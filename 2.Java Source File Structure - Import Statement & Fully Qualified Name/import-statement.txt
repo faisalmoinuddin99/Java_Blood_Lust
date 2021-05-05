@@ -1,0 +1,21 @@
+1.How many types of Import Statements are there in Java ?
+
+Ans: There are two types of import statements are avaialable in Java.
+
+1. Explicit type
+2. Implicit type
+
+
+Example: 
+
+import java.util.ArrayList ; => Explicit type Example
+
+import java.util.* ; => Implicit type Example
+
+It is recommended to go with Explicit type import statement
+
+2. Which import package is not required to import in program ?
+Ans: 
+
+i. java.lang package
+ii. Default package
