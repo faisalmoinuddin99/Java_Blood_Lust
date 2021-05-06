@@ -1,0 +1,23 @@
+1. Modifiers describes the behaviour of the class
+
+2. If the class is "public" you can access this class anywhere
+
+3. If class is having no modifiers then "default" modifiers is assign to that class,
+we can access defualt methods and classes within the same package. I have included the example
+
+4. If class is "abstarct" object creation is not allowed
+
+5. If class is "final" child class creation not possible
+
+
+Top Level Class                     vs                  Inner class
+
+public                                                  private
+<default>                                               protected
+abstarct                                                static
+final
+strictfp
+
+6. Top Level class include only 5 access modifiers, whereas Inner class can access 8 modifiers
+
+7. which is 5 access modifiers from Top Level classes  + 3 access modifiers from Inner class
