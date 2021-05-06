@@ -1,0 +1,31 @@
+******* Abstract Methods ********
+
+1. public and default are class level modifiers
+
+2. what is the meaning of abstact?
+--> abstract means not completed or partial complete.
+
+3. we can have abstract method and abstract class but not abstract variables.
+
+4. If you dont know about implementation then you can happily make the method as abstract.
+
+5. abstract methods only have declaration but no implementation.
+
+6. abstract method declaration should ends with ";" semicolon but nor "{}" curly braces
+
+7. Example: 
+
+class Test {
+
+    public abstract void m1(){}
+}
+
+if you run above code you will get below error:
+
+Test.java:1: error: Test is not abstract and does not override abstract method m1() in Test
+class Test {
+^
+.\Test.java:3: error: abstract methods cannot have a body
+    public abstract void m1(){}
+                         ^     
+2 errors
