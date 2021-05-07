@@ -1,0 +1,10 @@
+What is abstract class?
+
+--> Partially implemented class, can be delare as abstract.
+
+If you feel implementation is not proper, then you can make that class as abstract.
+
+Q. Is it possible to create object for abstract class?
+ANS.
+    No, not possible because if class implementation is not proper then object creation should not
+    be allowed.
