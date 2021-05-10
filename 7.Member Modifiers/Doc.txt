@@ -33,3 +33,11 @@ public -> global level
 Data members: variable (private) highly recommended
               
               Methods (public) recommended
+
+
+Q. Protected modifier:  protected = < default > + child
+
+If a variable or Methods decalared as protected then we can access that members with-in the same package 
+anywhere but outiside package only in child classes.
+
+From outside we cant use parent reference to access protected members
