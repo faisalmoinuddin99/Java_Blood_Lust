@@ -1,0 +1,12 @@
+what is the reason for below error ?
+
+-->  error: A is not public in pack1; cannot be accessed from outside package
+import pack1.A ;
+
+ANS. we get the above error when, even though the members of the class is public but the main class is 
+not public.
+
+So, if the members are decalare as public you can access that memeber anywhere with-in the package
+or outside the package, but make sure the corresponding class also visible. 
+
+If class is not visible and members are public then its of no use.
