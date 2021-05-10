@@ -10,3 +10,8 @@ public class B {
     
 
 }
+
+/*
+ A is not public in pack1; cannot be accessed from outside package
+import pack1.A ;
+ */

@@ -2,7 +2,8 @@
 
  class A {
 
-    public void m1(){
+// default access modifier example
+     void m1(){
         System.out.println("I am from A class  ");
     }
 }

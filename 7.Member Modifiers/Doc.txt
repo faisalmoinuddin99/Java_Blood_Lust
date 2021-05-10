@@ -10,3 +10,11 @@ So, if the members are decalare as public you can access that memeber anywhere w
 or outside the package, but make sure the corresponding class also visible. 
 
 If class is not visible and members are public then its of no use.
+
+
+Q. Default memeber: default memebers are only accessable with-in the same package.
+
+So if any memeber or variable delcare as default, we can access those variable or memebers only
+with in a current package. 
+
+default is also known as package level modifier.
