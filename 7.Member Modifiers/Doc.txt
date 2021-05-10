@@ -18,3 +18,18 @@ So if any memeber or variable delcare as default, we can access those variable o
 with in a current package. 
 
 default is also known as package level modifier.
+
+
+Q. Private Access modifier: If memebers are defined as private, then it means that member is 
+only accessable within the same class
+
+private is also known as class level modifier.
+
+private -> class level
+default -> package level
+public -> global level
+
+
+Data members: variable (private) highly recommended
+              
+              Methods (public) recommended
