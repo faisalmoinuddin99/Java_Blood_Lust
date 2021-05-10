@@ -1,0 +1,11 @@
+Q. What if we remove abstract method from parent class? what will gonna happen ?
+
+Ans. The code will compile successfully, but the biggest advantage is
+
+If we dont take abstract methods in parent class, child class may provide implementation
+OR may not provide implementation.
+
+That means those methods become "optional"
+
+But if we declare abstract method in parent class then that abstract class become mandatory
+to implement.
