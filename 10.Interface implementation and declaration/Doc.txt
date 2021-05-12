@@ -1,0 +1,11 @@
+Points to be remember*
+
+✔️ Whenever we are implementing an interface method complusory that method should 
+declare as " public ".
+
+✔️ Whenever we are implementing an interface for each and every abstract method of that 
+interface, we should provide implementation. If you are unable to provide implementation
+for at least one abstract method declare the class as " abstract" .
+
+✔️ Then who is the responsible to provide implementation for next remaining abstract method ?
+child class will be responsible.
