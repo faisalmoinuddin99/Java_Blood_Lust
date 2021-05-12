@@ -1,0 +1,24 @@
+
+
+
+SRno. Visibility             public       protected      default      private
+
+1.   within same class         ✔️           ✔️              ✔️          ✔️
+
+2.   From child class           ✔️          ✔️              ✔️          ❌
+    of same package
+
+3.   From non-child class        ✔️          ✔️              ✔️          ❌
+    of same package             
+
+4.   From child class          ✔️             ✔️            ❌           ❌
+    of outside package                      [ we should use 
+                                            child reference 
+                                            only ]
+
+5.   From non-child class
+    of outside package          ✔️              ❌          ❌           ❌
+
+
+
+    private < default < protected < public
